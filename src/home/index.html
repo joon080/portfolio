@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="SeokJoon Lee's portfolio — works, education, and skills.">
+    <title>SeokJoon Lee — Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./interaction.js" defer></script>
+    <script src="./papers.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#intro" aria-label="Portfolio home"><span aria-hidden="true">&lt;&gt;</span> Seokjoon Lee</a>
+      <nav aria-label="Main navigation">
+        <a href="#contact">Contact</a>
+        <a href="#works">Works</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero screen" id="intro" aria-labelledby="intro-heading">
+        <div class="hero__content">
+          <div class="hero__identity">
+            <p class="hero__role">dev</p>
+            <h1 class="hero__name" id="intro-heading">SeokJoon Lee</h1>
+          </div>
+          <div class="hero__details">
+            <dl>
+              <div><dt>EMAIL</dt><dd>el.frame26@gmail.com</dd></div>
+              <div><dt>Github</dt><dd><a href="https://github.com/joon080">joon080</a></dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="opening screen" id="opening" aria-labelledby="opening-heading">
+        <div class="opening__stage" aria-hidden="true">
+          <canvas class="opening__beam"></canvas>
+          <div class="opening__person"><span class="opening__head"></span><span class="opening__body"></span></div>
+        </div>
+        <div class="opening__content">
+          <p class="opening__label">Opening</p>
+          <h2 id="opening-heading"><strong>Unprecedented</strong><br><span>Potential</span></h2>
+        </div>
+      </section>
+
+      <section class="works screen section-shell" id="works" aria-labelledby="works-heading">
+        <div class="section-heading section-heading--right">
+          <p>What I have done</p>
+          <h2 id="works-heading">Works</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <h3><span aria-hidden="true"></span> SDIG</h3>
+            <div class="work-card__image" role="img" aria-label="Project image placeholder"></div>
+            <p>세종국제고 학생들을 위한 학교생활 통합 플랫폼<br> 
+              시간표·급식표 자동 갱신, 모학실 및 인터넷 카페 온라인 신청·자동 추첨,<br> 
+              맞춤형 푸시 알림 등을 제공하며 기존 수기 운영 절차를 디지털화하고 자동화했습니다.<br>
+              Tech Stack: Next.js, TypeScript, Supabase, Vercel, GitHub Actions</p>
+          </article>
+          <article class="work-card">
+            <h3><span aria-hidden="true">*</span> Title</h3>
+            <div class="work-card__image" role="img" aria-label="Project image placeholder"></div>
+            <p>this is explanation of my<br>perfect splendid<br>unprecedented website</p>
+          </article>
+          <article class="work-card">
+            <h3><span aria-hidden="true">*</span> Title</h3>
+            <div class="work-card__image" role="img" aria-label="Project image placeholder"></div>
+            <p>this is explanation of my<br>perfect splendid<br>unprecedented website</p>
+          </article>
+        </div>
+        <svg class="character-cards" viewBox="0 0 300 290" aria-hidden="true" focusable="false">
+          <g class="paper paper--left">
+          <polygon points="84,12 164,56 208,191 66,154" fill="#fff"/>
+          <text x="97" y="48" fill="#f16b43" font-family="Arial, sans-serif" font-size="11" transform="rotate(22 97 48)">Character</text>
+          <g transform="translate(125 115) rotate(15)" stroke="#f16b43" stroke-width="5" stroke-linecap="round">
+            <path d="M-26 0H26 M0-26V26 M-19-19L19 19 M-19 19L19-19 M-10-24L10 24 M-24-10L24 10 M-24 10L24-10 M-10 24L10-24"/>
+          </g>
+          </g>
+          <g class="paper paper--right">
+          <polygon points="220,191 196,265 111,281 157,222" fill="#f16b43"/>
+          <g transform="translate(179 233) rotate(20)" stroke="#fff" stroke-width="2" stroke-linecap="round">
+            <path d="M-12 0H12 M0-12V12 M-9-9L9 9 M-9 9L9-9 M-5-11L5 11 M-11-5L11 5 M-11 5L11-5 M-5 11L5-11"/>
+          </g>
+          </g>
+        </svg>
+      </section>
+
+      <section class="education screen section-shell" id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <div class="timeline">
+          <article class="timeline__entry timeline__entry--right">
+            <span class="timeline__symbol" aria-hidden="true">✱</span>
+            <div class="timeline__text">
+              <h3>SJGHS</h3>
+              <p>Lorem Ipsum meoshigi<br> meoshigi lorem ipsum bonaejwo<br> ipsum lorem meoshigi jip</p>
+            </div>
+          </article>
+          <article class="timeline__entry timeline__entry--left">
+            <span class="timeline__symbol timeline__symbol--braces" aria-hidden="true">{}</span>
+            <div class="timeline__text">
+              <h3>HUFS</h3>
+              <p>Lorem Ipsum meoshigi<br> meoshigi lorem ipsum bonaejwo<br> ipsum lorem meoshigi jip</p>
+            </div>
+          </article>
+          <article class="timeline__entry timeline__entry--right">
+            <span class="timeline__symbol timeline__symbol--hash" aria-hidden="true">#</span>
+            <div class="timeline__text">
+              <h3>SJGHS</h3>
+              <p>Lorem Ipsum meoshigi<br> meoshigi lorem ipsum bonaejwo<br> ipsum lorem meoshigi jip</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills screen section-shell" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <h2 id="skills-heading">Skills</h2>
+          <p>What I can do</p>
+        </div>
+        <p class="sr-only">These skill values are temporary example content.</p>
+        <ul class="skill-chart" aria-label="Example skill levels out of 100">
+          <li class="skill skill--python" aria-label="Python: 80 out of 100">
+            <div class="skill__column"><span class="skill__value">80</span><div class="skill__bar"><span class="python-mark" aria-hidden="true"><i></i><b></b></span></div></div>
+            <span class="skill__label" aria-hidden="true">Python</span>
+          </li>
+          <li class="skill skill--html" aria-label="HTML: 100 out of 100">
+            <div class="skill__column"><span class="skill__value">100</span><div class="skill__bar"><span aria-hidden="true">5</span></div></div>
+            <span class="skill__label" aria-hidden="true">HTML</span>
+          </li>
+          <li class="skill skill--css" aria-label="CSS: 100 out of 100">
+            <div class="skill__column"><span class="skill__value">100</span><div class="skill__bar"><span aria-hidden="true">CSS</span></div></div>
+            <span class="skill__label" aria-hidden="true">CSS</span>
+          </li>
+          <li class="skill skill--javascript" aria-label="Javascript: 70 out of 100">
+            <div class="skill__column"><span class="skill__value">70</span><div class="skill__bar"><span aria-hidden="true">JS</span></div></div>
+            <span class="skill__label" aria-hidden="true">Javascript</span>
+          </li>
+          <li class="skill skill--typescript" aria-label="Typescript: 60 out of 100">
+            <div class="skill__column"><span class="skill__value">60</span><div class="skill__bar"><span aria-hidden="true">TS</span></div></div>
+            <span class="skill__label" aria-hidden="true">Typescript</span>
+          </li>
+        </ul>
+        <p class="skills__description">Lorem Ipsum meoshigi meoshigi<br>lorem ipsum bonaejwo ipsum lorem meoshigi jip</p>
+      </section>
+
+      <footer class="contact screen section-shell" id="contact" aria-labelledby="contact-heading">
+        <div class="contact__content">
+          <div class="contact__portrait" aria-hidden="true">:(</div>
+          <div class="contact__text">
+            <h2 id="contact-heading">Seokjoon Lee</h2>
+            <p>Lorem Ipsum meoshigi meoshigi<br> lorem ipsum bonaejwo ipsum lorem meoshigi jip</p>
+          </div>
+        </div>
+        <small class="copyright">© 2026 Seokjoon Lee. All rights reserved.</small>
+      </footer>
+    </main>
+  </body>
+</html>
